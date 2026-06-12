@@ -1,0 +1,9 @@
+---
+
+- name: Install VLC Package
+  hosts: all
+  tasks:
+    - name: Install VLC
+      apt_rpm:
+        name: vlc
+        state: present

@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+
+  django:
+    build:
+      context: ./ansible
+    container_name: ansible_django
+    network_mode: host
+    restart: unless-stopped
+    working_dir: /app
+    command: >
+      sh -c "
+        python manage.py migrate &&
+        python manage.py runserver 0.0.0.0:8000
+      "
+    volumes:
+      - ./ansible:/app
+      - ~/.ssh:/root/.ssh:ro
+
+networks:
+  ansible_net:
+    driver: bridge
