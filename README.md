@@ -1,4 +1,4 @@
-#📗 Ansible Manager
+# 📗 Ansible Manager
 
 Web-based platform for managing and executing Ansible automation tasks through a modern Django interface.
 
