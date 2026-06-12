@@ -955,6 +955,10 @@ import requests
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 
+OLLAMA_URL = os.getenv(
+    "OLLAMA_URL",
+    "http://127.0.0.1:11434"
+)
 
 @csrf_exempt
 def chat(request):
@@ -964,7 +968,7 @@ def chat(request):
     data = json.loads(request.body)
 
     response = requests.post(
-        "http://192.168.18.199:11434/api/chat",
+         f"{OLLAMA_URL}/api/chat",
         json=data,
         timeout=300,
     )
