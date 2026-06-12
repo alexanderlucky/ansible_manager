@@ -12,7 +12,7 @@ Ansible Automation is a self-hosted platform that combines:
 
 The platform allows administrators to manage infrastructure automation, execute playbooks, schedule tasks, and maintain server inventories from a centralized web dashboard.
 
-![Project demo](https://github.com/alexanderlucky/ansible_automation/blob/main/demo.png?raw=true)
+![Project demo](https://github.com/alexanderlucky/ansible_manager/blob/main/demo.png?raw=true)
 ---
 
 ## Quick Start
