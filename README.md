@@ -15,7 +15,7 @@ The platform allows administrators to manage infrastructure automation, execute 
 ![Project demo](https://github.com/alexanderlucky/ansible_manager/blob/main/demo.png?raw=true)
 ---
 
-## Quick Start
+## Quick Start 🚀
 
 ### Clone Repository
 
@@ -42,7 +42,7 @@ docker compose up -d
 
 ---
 
-## Features
+## ⭐ Features
 
 ### Infrastructure Automation
 
@@ -79,7 +79,7 @@ docker compose up -d
 ---
 
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Backend
 
@@ -94,7 +94,7 @@ docker compose up -d
 
 ---
 
-## Project Structure
+## 📚 Project Structure
 
 ```text
 ansible_automation/
@@ -113,7 +113,7 @@ ansible_automation/
 ---
 
 
-## Services
+## 🧩 Services
 
 | Service    | Port |
 | ---------- | ---- |
@@ -122,7 +122,7 @@ ansible_automation/
 
 ---
 
-## Access
+## 🚪 Access
 
 ### Django Application
 
@@ -132,7 +132,7 @@ http://localhost:8000
 
 ---
 
-## Development
+## ⛏ Development
 
 Rebuild containers:
 
@@ -155,7 +155,7 @@ docker exec -it ansible_django bash
 
 ---
 
-## Roadmap
+## 🗺 Roadmap
 
 * [ ] Inventory management UI
 * [ ] REST API
@@ -164,7 +164,7 @@ docker exec -it ansible_django bash
 
 ---
 
-## Contributing
+## 👨‍💼 Contributing
 
 Contributions are welcome.
 
