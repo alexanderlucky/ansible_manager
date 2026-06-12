@@ -35,12 +35,7 @@ docker compose build --no-cache
 docker compose up -d
 ```
 
-### Check Status
-
-```bash
-docker ps
-```
-
+### Open ansible manager
 [http://localhost:8000](http://localhost:8000)
 
 
