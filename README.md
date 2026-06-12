@@ -39,6 +39,14 @@ docker compose up -d
 [http://localhost:8000](http://localhost:8000)
 
 
+### Ollama setup (optional)
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+```bash
+ollama run qwen2.5
+```
 
 ---
 
