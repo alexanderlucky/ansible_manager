@@ -41,6 +41,10 @@ docker compose up -d
 docker ps
 ```
 
+[http://localhost:8000](http://localhost:8000)
+
+
+
 ---
 
 ## Features
